@@ -1,22 +1,27 @@
 /* header */
 body{
   margin:0;
-  background-color:#FFFFCC ;
+  background-color:#FFFFCC;
 }
-#header{
+.header{
   height:65px;
 
 }
-#blue{
+.header__triangle{
   width:100%;
   height:65px;
+}
+.header__triangle--blue{
   background-color:#99FFFF;
 
 }
-#blue img{
+
+.header__image  .header__triangle--blue{
   margin:1% 1%;
+
 }
-#pink{
+
+.header__triangle--pink{
 margin-top:-65px;
 margin-left: 50%;
   width:45.4%;
@@ -30,7 +35,7 @@ background-color:#99FFFF;
 
 
 /* footer */
-#footer{
+.footer{
   background-color: white;
   width:vw;
   height:73px;

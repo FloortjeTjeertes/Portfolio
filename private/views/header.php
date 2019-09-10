@@ -8,5 +8,5 @@
     <title>portfolio</title>
   </head>
   <body>
-<div id="header"><div id="blue"> <img src="pictures/u4.png" alt="home"></div><div id=pink> <div id="button"></div></div></div>
-<div id="container">
+<div class="header"><div class="header__triangle header__triangle--blue"> <img class="header__image" src="pictures/u4.png" alt="home"></div><div class="header__triangle--pink"> <div id="header__button"></div></div></div>
+<div class="container">
