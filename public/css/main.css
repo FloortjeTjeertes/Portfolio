@@ -1,0 +1,167 @@
+#container {
+  display: grid;
+  grid: 'pictureSlide'
+    'textBox '
+    'gameboys'
+    'textBox_twee';
+}
+
+#pictureSlide {
+  grid-area: pictureSlide;
+  background-image: url("../pictures/codecode.jpg");
+  width: 100%;
+  height: 222px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.textBox {
+  padding-top: 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  margin-bottom: 10%;
+}
+
+
+#een {
+  grid-area: textBox;
+}
+#white p{
+  margin:0 auto;
+  width: 480px;
+height: 203px;
+}
+.textBox #white {
+  background-color: white;
+  height: 203px;
+  width: 920px;
+  text-align: center;
+  grid-column: 2/3;
+}
+
+#pinkTriangle {
+  position: absolute;
+  z-index: 2;
+  grid-column: 2/3;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 220px 220px 0 0;
+  border-color: #FFCCFF transparent transparent transparent;
+}
+
+#blueTriangle {
+  margin-left: 67%;
+  position: absolute;
+  z-index: 2;
+  grid-column: 2/3;
+  margin-top: -1%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 220px 220px;
+  border-color: transparent transparent #99FFFF transparent;
+}
+
+#twee {
+  grid-area: textBox_twee;
+  margin-top: 10%;
+}
+
+.gameboy {
+  display: grid;
+  grid-template-areas: 'main-big main-small';
+  width: 286px;
+  height: 313px;
+}
+
+#main-big {
+  grid-area: main-big;
+  background-color: #FFCCFF;
+  height: 313px;
+  width: 250px;
+}
+
+#main-small {
+  grid-area: main-small;
+  margin-top: 69%;
+  background-color: #FFCCFF;
+  height: 288px;
+  width: 37px;
+}
+
+#laybel {
+  margin-top: 20px;
+  margin-left: 35px;
+  margin-bottom: 21px;
+  height: 10%;
+  width: 71%;
+  background-color: #C9C9C9;
+  border-style: solid;
+  border-width: 9.5px;
+  border-radius: 100px;
+  border-color: #FF99FF;
+  text-align: center;
+}
+
+#gameboys {
+  grid-area: gameboys;
+  display: grid;
+  grid-template-columns: 17.7% 1fr 1fr 17.7%;
+}
+
+#gameboy_een {
+  grid-column: 2/3;
+}
+
+#gameboy_twee {
+  grid-column: 3/4;
+  margin-left: 37.5%;
+}
+
+#gameboys_twee {
+  display: grid;
+  grid-template-columns: 17.7% 1fr 1fr 17.7%;
+  grid-template-rows: 1fr 1fr;
+}
+
+#gameboy_drie {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+#gameboy_drie img{
+  height:198px;
+  width:196px;
+  padding-left: 33px;
+  padding-top:;
+
+
+}
+
+#gameboy_vier {
+  margin-left: 37.5%;
+  grid-column: 3/4;
+  grid-row: 1/2;
+
+}
+#gameboy_vier img{
+  height:198px;
+  width:196px;
+  padding-left: 33px;
+}
+#gameboy_vijf {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  margin-top: 1%;
+}
+
+#gameboy_zes {
+  margin-left: 37.5%;
+  grid-column: 3/4;
+  grid-row: 2/3;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
