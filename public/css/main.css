@@ -113,52 +113,51 @@ height: 203px;
   grid-template-columns: 17.7% 1fr 1fr 17.7%;
 }
 
-.gameboy_een{
+.gameboy__een{
   grid-column: 2/3;
 }
 
-#gameboy_twee {
+.gameboy__twee {
   grid-column: 3/4;
   margin-left: 37.5%;
 }
 
-#gameboys_twee {
+.gameboys__twee {
   display: grid;
   grid-template-columns: 17.7% 1fr 1fr 17.7%;
   grid-template-rows: 1fr 1fr;
 }
 
-#gameboy_drie {
+.gameboy__drie {
   grid-column: 2/3;
   grid-row: 1/2;
 }
-#gameboy_drie img{
+.gameboy__gameboy-drie--plaatje{
   height:198px;
   width:196px;
   padding-left: 33px;
-  padding-top:;
 
 
 }
 
-#gameboy_vier {
+.gameboy__vier{
   margin-left: 37.5%;
   grid-column: 3/4;
   grid-row: 1/2;
 
 }
-#gameboy_vier img{
+.gameboy__gameboy-vier--plaatje{
   height:198px;
   width:196px;
   padding-left: 33px;
 }
-#gameboy_vijf {
+.gameboy__vijf {
   grid-column: 2/3;
   grid-row: 2/3;
   margin-top: 1%;
 }
 
-#gameboy_zes {
+.gameboy__zes {
   margin-left: 37.5%;
   grid-column: 3/4;
   grid-row: 2/3;
