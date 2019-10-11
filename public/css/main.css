@@ -1,11 +1,10 @@
 .container {
   display: grid;
-  grid: 'pictureSlide'
-    'textBox '
-    'gameboys'
-    'textBox_twee';
+  grid: '. . .'
+        'sidebar . .';
 }
 .sidebar__folders {
+
   grid-area: sidebar;
 
 }
@@ -13,6 +12,7 @@
   width: 75px;
   height: 62px;
   display: flex;
+
 }
 
 
