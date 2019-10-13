@@ -1,39 +1,40 @@
 .container {
   display: grid;
   grid: '. . .'
-        'sidebar window .';
+    'sidebar window .';
 }
+
 /* sidebar */
 .sidebar__folders {
-
   grid-area: sidebar;
   z-index: 3;
   position: fixed;
   margin: 3% 0% 0% 0%;
-
 }
-.sidebar__folder{
+
+.sidebar__folder {
   width: 75px;
   height: 62px;
   display: flex;
-margin:30% 0% 40% 0%;
+  margin: 30% 0% 40% 0%;
 }
 
+.sidebar__folder--oranje1 {
+  background-color: #FF9933;
+  height: 45px;
+  width: 14px;
+  border-radius: 5px 5px 0px 0px;
+}
 
-.sidebar__folder--oranje1{
-background-color: #FF9933;
-height:45px;
-width:14px;
-border-radius: 5px 5px 0px 0px;
+.sidebar__folder--oranje2 {
+  background-color: #FF9933;
+  height: 39px;
+  width: 61px;
+  border-radius: 0px 5px 0px 0px;
+  margin: 6px 0px 0px -1px;
 }
-.sidebar__folder--oranje2{
-background-color: #FF9933;
-height:39px;
-width:61px;
-border-radius: 0px 5px 0px 0px;
-margin: 6px 0px 0px -1px;
-}
-.sidebar__folder--zwart{
+
+.sidebar__folder--zwart {
   background-color: #333333;
   width: 75px;
   height: 38px;
@@ -43,32 +44,40 @@ margin: 6px 0px 0px -1px;
   position: absolute;
 }
 
-
 /* window */
-.window{
-  grid-area: window;
-height: 270px;
-width: 553px;
-/* z-index: 2;
-position: fixed; */
+.window__img{
+grid-area: window;
+height: 236px;
+width: 254px;
+margin: 156px 0px 0px 148px;
+
 }
 
-.window__header--zwart{
+.window {
+  grid-area: window;
+  height: 270px;
+  width: 553px;
+margin: 60px 0px 0px 300px;
+}
+
+.window__header--zwart {
   width: 289px;
   margin-left: 19px;
   border-style: solid;
-border-width: 0 0 44px 45px;
-border-color: transparent transparent #333333 transparent;
-background-color:#FF9933;
+  border-width: 0 0 44px 45px;
+  border-color: transparent transparent #333333 transparent;
+  background-color: #FF9933;
 }
-.window__header--oranje{
-  background-color:#FF9933;
+
+.window__header--oranje {
+  background-color: #FF9933;
   width: 226px;
-height: 43px;
-padding-left:200px;
+  height: 43px;
+  padding-left: 200px;
 }
-.window__textfield{
+
+.window__textfield {
   height: 226px;
   width: 553px;
-  background-color:#D7D7D7;
+  background-color: #D7D7D7;
 }

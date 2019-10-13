@@ -6,7 +6,8 @@
  <div class="sidebar__folder sidebar__folders--drie"> <div class="sidebar__folder--oranje1"></div><div class="sidebar__folder--oranje2"></div><div class=sidebar__folder--zwart></div> </div>
  <div class="sidebar__folder sidebar__folders--vier"> <div class="sidebar__folder--oranje1"></div><div class="sidebar__folder--oranje2"></div><div class=sidebar__folder--zwart></div> </div>
 </div>
-<img src="pictures/placeHolder.jpg" alt='placeholder'>
+<img class="window__img" src="pictures/placeHolder.jpg" alt='placeholder'>
+
 <div class="window">
   <div class="window__header--oranje"> <div class="window__header--zwart"></div></div>
 <div class="window__textfield"></div>
