@@ -6,6 +6,8 @@
 .sidebar__folders {
 
   grid-area: sidebar;
+  z-index: 3;
+  position: absolute;
 
 }
 .sidebar__folder{

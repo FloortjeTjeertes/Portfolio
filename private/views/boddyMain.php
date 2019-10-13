@@ -5,6 +5,3 @@
  <div class="sidebar__folder sidebar__folders--drie"> <div class="sidebar__folder--oranje1"></div><div class="sidebar__folder--oranje2"></div><div class=sidebar__folder--zwart></div> </div>
  <div class="sidebar__folder sidebar__folders--vier"> <div class="sidebar__folder--oranje1"></div><div class="sidebar__folder--oranje2"></div><div class=sidebar__folder--zwart></div> </div>
 </div>
-
-
-<a href="/wall">Visit W3Schools</a>
