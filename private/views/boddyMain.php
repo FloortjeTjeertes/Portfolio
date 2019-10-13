@@ -8,6 +8,6 @@
 </div>
 <img src="pictures/placeHolder.jpg" alt='placeholder'>
 <div class="window">
-  <div class="window__header--oranje"></div><div class="window__header--zwart"></div>
+  <div class="window__header--oranje"> <div class="window__header--zwart"></div></div>
 <div class="window__textfield"></div>
 </div>
