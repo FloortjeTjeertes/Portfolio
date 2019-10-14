@@ -1,3 +1,6 @@
+
+
+
 .container {
   display: grid;
   grid: '. . .'
@@ -80,4 +83,35 @@ margin: 60px 0px 0px 300px;
   height: 226px;
   width: 553px;
   background-color: #D7D7D7;
+}
+
+
+
+@media screen and (max-width: 720px)  {
+body{
+  background-color: green;
+}
+
+.container {
+  display: grid;
+  grid: '. . .'
+    '. window .'
+    '.window__img.';
+}
+
+.window {
+  grid-area: window;
+  height: 270px;
+  width: 100px;
+margin: 60px 0px 0px 10px;
+}
+
+.window__img{
+grid-area: window__img;
+height: 236px;
+width: 254px;
+margin: 156px 0px 0px 148px;
+
+}
+
 }
