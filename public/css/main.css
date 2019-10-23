@@ -8,6 +8,20 @@
 }
 
 /* sidebar */
+
+
+.sidebar__folders--github img{
+border-width: thick;
+  width: 72px;
+  height: 72px;
+
+}
+.sidebar__folders--linkedIn img{
+  width: 72px;
+  height: 72px;
+
+}
+
 .sidebar__folders {
   grid-area: sidebar;
   z-index: 3;
