@@ -49,5 +49,5 @@ function up(x2, y2) {
   console.log('x2 = ' + x2 + ' y2 = ' + y2);
   console.log(x2);
   console.log(y2 - y1);
-  console.log(y2 - y1);
+  console.log(x2 - x1);
 }
