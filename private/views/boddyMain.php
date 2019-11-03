@@ -20,3 +20,13 @@
   <div class="window__textfield">test </div>
 
 </div>
+
+<div class="window window__two">
+  <div class="window__header--oranje"> <div class="window__header--zwart"></div></div>
+<div class="window__textfield">welkom op mijn website ik ben florian tjeertes en dit is mijn portfolio!  </div>
+</div>
+
+
+<div class="folder slider">
+
+</div>

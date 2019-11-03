@@ -12,7 +12,10 @@ class HomeController {
 
 	function home(){
 
+include __DIR__ .'/../views/bootscrean.php';
+
 include __DIR__ .'/../views/header.php';
+
 
 include __DIR__ .'/../views/boddyMain.php';
 

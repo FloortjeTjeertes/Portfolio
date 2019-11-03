@@ -13,6 +13,8 @@ let y2 = 0;
 let x1 = 0;
 let y1 = 0;
 
+let klick = 0;
+
 function down() {
 
   var x = event.clientX;
@@ -24,7 +26,7 @@ function down() {
   console.log('x1 = ' + x1 + ' y1 = ' + y1)
 
   console.log(x1);
-
+  klick = 1;
 
 }
 
@@ -40,6 +42,7 @@ body.addEventListener("mouseup", up);
 
 
 function up(x2, y2) {
+console.log(klick);
 
   var x = event.screenX;
   var y = event.screenY;
@@ -48,6 +51,17 @@ function up(x2, y2) {
 
   console.log('x2 = ' + x2 + ' y2 = ' + y2);
   console.log(x2);
-  console.log(y2 - y1);
-  console.log(x2 - x1);
+xOfset =x2-x1;
+yOfset =y2-y1;
+
+  console.log(xOfset);
+  console.log(yOfset);
+
+  if(klick == 1){
+    windowMove.style.zIndex="3";
+    windowMove.style.position= "fixed";
+  windowMove.style.margin = (100+yOfset) +"px 0px 0px " + (300+xOfset) +"px";
+
+  klick=0;
+};
 }
