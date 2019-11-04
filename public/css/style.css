@@ -1,8 +1,31 @@
 /* header */
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin:0;
   background-color:#000000;
 
+  /* width */
+
+
+}
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color:#333333 ;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background:   rgba(255, 153, 51, 0.50);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background:  rgba(255, 153, 51, 1);
 }
 
 
@@ -12,7 +35,7 @@ body{
 
 .header{
   height:65px;
-  
+
 
 }
 .header__triangle{

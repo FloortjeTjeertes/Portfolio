@@ -55,6 +55,16 @@
   background-color: #FF9933;
 }
 
+@-webkit-keyframes loadbarr {
+  from {width: 4000px;}
+  to {width: 0px;}
+}
+
+@keyframes loadbarr {
+  from {  width: 4000px;}
+  to {  width: 0px;}
+}
+
 .loadbarr__triangle--pink {
 
   border-style: solid;
@@ -63,7 +73,27 @@
   background-color: #FF9933;
   margin: -10px;
   height: 0px;
-  width: 10000px;
+  width: 4000px;
   margin-top: 0px;
   margin-right:10px;
+
+
+/* animation */
+-webkit-animation-name: loadbarr ; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 5s; /* Safari 4.0 - 8.0 */
+animation-name: loadbarr ;
+animation-duration: 5s;
+}
+@keyframes fadeOut {
+  from {  opacity: 1;}
+  to {  opacity: 0;}
+
+}
+
+
+.disapear{
+  -webkit-animation-name: fadeOut ; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+  animation-name: fadeOut ;
+  animation-duration: 2s;
 }

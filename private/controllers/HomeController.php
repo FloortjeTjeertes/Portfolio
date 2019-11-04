@@ -18,6 +18,7 @@ include __DIR__ .'/../views/header.php';
 
 
 include __DIR__ .'/../views/boddyMain.php';
+include __DIR__ .'/../views/projecten.php';
 
 include __DIR__ .'/../views/footer.php';
 
