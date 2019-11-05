@@ -28,5 +28,5 @@
 
 <div class="window window__two" id="windowThree">
   <div class="window__header--oranje"> <div class="window__header--zwart"></div></div>
-<div class="window__textfield">welkom op mijn website ik ben florian tjeertes en dit is mijn portfolio!  </div>
+<iframe src="pictures/my-cv.pdf" class="window__textfield">welkom op mijn website ik ben florian tjeertes en dit is mijn portfolio!  </iframe>
 </div>
