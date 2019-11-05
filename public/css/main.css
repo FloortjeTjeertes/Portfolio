@@ -23,6 +23,7 @@ width: 200px;
     '. window__move .'
     '. window__git .'
     '.window__two.'
+    '.folder__slider.'
     ;
     grid-gap: 100px;
 }
@@ -157,12 +158,14 @@ text-align: center;
   grid:
   'titleOne.'
   'infoText me';
+  margin-bottom: 100px;
 }
 
 .window__two{
     grid-area: window__two;
-  
+
 }
+
 
 
 @media screen and (max-width: 720px)  {

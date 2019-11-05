@@ -1,0 +1,25 @@
+.the_wall{
+  height: 300px;
+  width: auto;
+}
+.project {
+width:500px;
+margin-top: 100px;
+margin-left: -600px;
+margin-right: 100px;
+}
+
+.folder__slider{
+background-color: #D7D7D7;
+  margin-top: 150px;
+  grid-area: folder__slider;
+  height: 500px;
+  display:  inline-flex;
+  overflow: hidden;
+
+}
+
+.folder__slider .window__header--oranje{
+  margin-left: 100px;
+
+}
